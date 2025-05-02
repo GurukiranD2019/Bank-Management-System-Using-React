@@ -1,0 +1,9 @@
+## Steps to run the project
+
+The userdata is being stored in JSON and needs to be accessed for login validation hence server.js file needs to run first
+
+~ node server.js
+
+Next to run the project :
+
+~ npm run dev

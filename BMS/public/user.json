@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Gurukiran",
+      "username": "User12w",
+      "password": "Shadow@2025",
+      "address": "123 Main St",
+      "country": "India",
+      "state": "Karnataka",
+      "email": "email@gmail.com",
+      "contact": "1234567890",
+      "dob": "1990-01-01",
+      "accountType": "Savings",
+      "branchName": "Vijaynagar",
+      "initialDeposit": "50000",
+      "idProofType": "Aadhar",
+      "idDocumentNo": "123412341234",
+      "accountNumber": "98765432",
+      "ageCategory": "Normal"
+    },
+    {
+      "name": "Shadow",
+      "username": "User24w",
+      "password": "Password@456",
+      "address": "#456 2nd Street",
+      "country": "India",
+      "state": "Karnataka",
+      "email": "email@example.com",
+      "contact": "9876543210",
+      "dob": "1960-05-15",
+      "accountType": "Current",
+      "branchName": "Uptown Branch",
+      "initialDeposit": "10000",
+      "idProofType": "Passport",
+      "idDocumentNo": "A123456789",
+      "accountNumber": "12345678",
+      "ageCategory": "Senior"
+    }
+  ]
+}

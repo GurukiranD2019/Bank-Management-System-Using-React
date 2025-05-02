@@ -1,0 +1,43 @@
+## Overview
+
+This project is designed to create a comprehensive bank management system. It aims to provide a user-friendly interface for managing various banking operations such as applying for loan and depositing. The main goals are to ensure data security, improve operational efficiency, and enhance customer experience.
+
+## Tech Stack
+
+Vite + React - Very famous JS&TS Framework used for component based frontend development, Vite is a supporting template library
+which is popular used for providing templates & project structure for JS,TS,React,VueJS etc frameworks
+
+Express - Server side development & backend connection
+
+NodeJS - Node modules to work with dependencies, basically a JS&TS runtime environment
+
+CORS - Cross-origin resource sharing (CORS) is a mechanism for integrating applications. CORS defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
+
+CSS & Bootstrap - For styling, Alignment, RWD and user-friendly designing
+
+HTML - Web content & structure development
+
+JSON - Javascript object notation for storing user data.
+
+## Modules & Screens
+
+# Login
+
+Validation of existing users w.r.t username & password.
+
+# Registration
+
+Registration page will store all the details of the customer while registring for the BMS portal
+
+if userdetails already exists it should show user details already exists would you like to update with new information.
+
+Where are the userdata being stored?
+The userdata will be stored in user.json which will be valid for particular session and using the user.json data the user login will be performed using their username and password to login to the portal.
+
+# Deposit
+
+Lets user see his account details such as current balance, account number and account branch, He could also perform deposit or draw and the statement will be visible
+
+# ApplyLoan
+
+User can apply for either home/personal loan or educational loan and respective interest rate will be populated with tenure, principal amount and monthly emi will be calculated.

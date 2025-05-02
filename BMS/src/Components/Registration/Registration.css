@@ -1,0 +1,68 @@
+/* filepath: /Users/2174256/Documents/Projects/React Training Case Study/Bank-management-system/src/Components/Registration/Registration.css */
+.registration-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.registration-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-container form div {
+  margin-bottom: 15px;
+}
+
+.registration-container form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.registration-container form input,
+.registration-container form select,
+.registration-container form .date-picker {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.registration-container form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #014965;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-container form button:hover {
+  background-color: #000c10;
+}
+
+.registration-success {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.registration-success h1 {
+  color: green;
+}
+
+.registration-success button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #014965;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-success button:hover {
+  background-color: #000c10;
+}

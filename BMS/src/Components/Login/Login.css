@@ -1,0 +1,72 @@
+/* filepath: /Users/2174256/Documents/Projects/React Training Case Study/Bank-management-system/src/Components/Login/Login.css */
+
+
+body {
+    padding: 100px;
+    /*background: url('/assets/bg.jpg') no-repeat fixed;
+    background-size: cover; */
+    background-color: #012c3d;
+}
+
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .login-container form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-container form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .login-container form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #014965;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-container form button:hover {
+    background-color: #000c10;
+  }
+  
+  .login-container .links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-container .links a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-container .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }

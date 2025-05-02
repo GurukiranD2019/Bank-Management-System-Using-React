@@ -1,0 +1,143 @@
+/* Container for the account details */
+.account-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Card styling */
+.account-card {
+  background-color: #ffffff4a;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Title styling */
+.account-title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Account information styling */
+.account-info p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 8px 0;
+}
+
+.account-info strong {
+  color: #ffffff;
+}
+
+/* Transaction form styling */
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.transaction-form input {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.transaction-form button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.deposit-button {
+  background-color: #28a745;
+}
+
+.deposit-button:hover {
+  background-color: #218838;
+}
+
+.draw-button {
+  background-color: #dc3545;
+}
+
+.draw-button:hover {
+  background-color: #c82333;
+}
+
+/* Buttons container */
+.account-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Back button styling */
+.back-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Account statement styling */
+.account-statement {
+  background-color: #ffffff25;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.account-statement h3 {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.account-statement ul {
+  list-style: none;
+  padding: 0;
+}
+
+.account-statement li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.account-statement .credit {
+  color: #28a745;
+}
+
+.account-statement .debit {
+  color: #dc3545;
+}

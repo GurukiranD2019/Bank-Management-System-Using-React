@@ -1,0 +1,97 @@
+.loan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   color:#ffffff;
+    min-height: 100vh;
+  }
+  
+  .loan-container h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .loan-form {
+    background-color: #f6f6f649;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 50px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    margin:30px
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .calculate-button,
+  .submit-loan-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #014965;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .calculate-button:hover,
+  .submit-loan-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loan-summary {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .loan-summary h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .loan-summary p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .loan-summary strong {
+    color: #333;
+  }
+
+  .back-button{
+
+    margin: 20px;
+    background-color: #014965;
+  }

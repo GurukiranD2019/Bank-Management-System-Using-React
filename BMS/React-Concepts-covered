@@ -1,0 +1,58 @@
+In this project, several key React concepts and features are being utilized. Here is an overview of the concepts used so far:
+
+## Functional Components: -
+
+Both the Login and Registration components are implemented as functional components using React's function component syntax.
+
+## State Management: - manageing form data & submission status
+
+The useState hook is used to manage local state within the components. For example, in the Login component, state is used to manage the username, password, and error states. In the Registration component, state is used to manage the form data and submission status.
+
+## Event Handling: - handling events based on input changes
+
+Event handlers are used to handle form submissions and input changes. For example, the handleSubmit function handles form submission, and the handleChange function handles input changes.
+
+## React Router: - navigating between login,home registration etc
+
+The react-router-dom library is used for client-side routing. The BrowserRouter, Route, and Routes components are used to define routes and navigate between different pages (e.g., Login, Home, and Registration).
+
+## Conditional Rendering: - registration success shown after data being saved.
+
+Conditional rendering is used to display different content based on the component's state. For example, in the Registration component, a success message is displayed if the form is successfully submitted.
+
+## Fetching Data: - Login Credentials validation
+
+The fetch API is used to make HTTP requests to the server to retrieve and update data. For example, the Login component fetches user data from the server to verify credentials, and the Registration component sends a POST request to update the user data.
+
+## Form Handling: - login & Registration
+
+Form handling is implemented to collect user input and manage form submissions. The handleSubmit function prevents the default form submission behavior and processes the form data.
+Date Picker:
+
+The react-datepicker library is used to provide a date picker for selecting the date of birth in the Registration component.
+
+## CSS Styling:
+
+CSS files are used to style the components. For example, Login.css and Registration.css contain styles for the Login and Registration components, respectively.
+
+## Navigation:
+
+The useNavigate hook from react-router-dom is used to programmatically navigate between routes. For example, after a successful login or registration, the user is redirected to the appropriate page.
+
+## JS Variables, Functions, objects, error handling
+
+## Typescript Annotations : in username & password in login.tsx
+
+## interface
+
+## Server endpoint
+
+REST API being used to interact with resources over HTTP which are user stored in JSON file. thats the reason we host server locally in localhost:5000.
+
+Mainly used
+GET : Retrieves userdata & sends to client by using HTTP GET request
+POST : Reads the existing user, appends new data to user.json
+
+## Regex JS Validation
+
+A pattern of regular expressions being used to validate multiple form fields
